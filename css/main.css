@@ -1,0 +1,83 @@
+body {
+   background-color: #F5F5F5;
+}
+
+div {
+   border: 0px dotted black;
+   margin: 0px;
+}
+
+.header {
+   width: 600px;
+   margin: 5px auto;
+   position: relative;
+}
+
+.header a {
+   position: absolute;
+   right: 5px;
+   margin-top: 13px;
+}
+
+.hero-unit {
+   background-image:url('../img/hero-bg.jpg');
+   background-color: #F5F5F5;
+   margin: 0px;
+   position: relative;
+   max-height: 428px;
+}
+
+.hero-unit-inner {
+   position: relative;
+   width: 750px;
+   margin: 0px auto;
+}
+
+.hero-unit-inner h1 {
+   font-size: 400%;
+   width: 350px;
+}
+
+.hero-unit-inner p {
+   margin-top: 35px;
+   width: 350px;
+}
+
+.hero-unit-inner img {
+   position: absolute;
+   top: 0;
+   right: 0;
+}
+
+.content {
+   width: 750px;
+   margin: 25px auto 0px;
+   position: relative;
+}
+
+.content div.right-1 {
+   position: absolute;
+   right: 0;
+   top: 0;
+}
+
+.content div.right-2 {
+   position: absolute;
+   right: 82px;
+   top: 120px;
+}
+
+.content div.right-2 h3 {
+   color: red;
+}
+
+.content div.right-3 {
+   position: absolute;
+   right: 160px;
+   top: 185px;
+}
+
+.footer {
+   text-align: center;
+   margin: 25px auto 10px;
+}
