@@ -81,3 +81,13 @@ div {
    text-align: center;
    margin: 25px auto 10px;
 }
+
+#test {
+   width: 300px;
+   margin: 10px;
+   border: 1px solid #DDD;
+   border-radius: 3px;
+   padding: 10px;
+   border-top: 1px solid #EEE;
+   background: white;
+}
