@@ -25,6 +25,7 @@ div {
    margin: 0px;
    position: relative;
    max-height: 428px;
+   padding-bottom: 56px;
 }
 
 .hero-unit-inner {
