@@ -83,6 +83,10 @@ div {
    margin: 50px auto 10px;
 }
 
+.footer a {
+    color: #DD390D;
+}
+
 .widget {
    width: 333px;
    margin: 10px;
