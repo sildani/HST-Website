@@ -80,15 +80,132 @@ div {
 
 .footer {
    text-align: center;
-   margin: 25px auto 10px;
+   margin: 50px auto 10px;
 }
 
-#test {
-   width: 300px;
+.widget {
+   width: 333px;
    margin: 10px;
    border: 1px solid #DDD;
    border-radius: 3px;
    padding: 10px;
    border-top: 1px solid #EEE;
    background: white;
+   float: left;
+   position: relative;
+}
+
+.widget-head img {
+    float: left;
+    margin-top: 2px;
+    border-radius: 40px;
+    height: auto;
+    border: 0;
+    vertical-align: middle;
+    width: 42px;
+    cursor: auto;
+}
+
+.widget-head .title {
+    margin-left: 60px;
+}
+
+.widget-head .title h3 {
+    font-weight: normal;
+    color: #DD390D;
+    font-size: 20px;
+    line-height: 1.3;
+    margin: 0px;
+    font-family: 'Proxima Nova', 'proxima-nova', 'Helvetica Neue', Helvetica, sans-serif;
+    text-rendering: optimizelegibility;
+}
+
+.widget-head .subtitle {
+    color: #777;
+    font-size: 13px;
+    margin-top: 0px;
+    margin-left: 60px;
+}
+
+ul.widget-body {
+    list-style: none;
+    margin: 15px -15px 0;
+    padding: 0px 10px;
+    position: relative;
+    display: block;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+}
+
+ul.widget-body::before {
+    -webkit-box-shadow: inset 0 16px 8px -20px rgba(0, 0, 0, 0.4);
+    -moz-box-shadow: inset 0 15px 8px -20px rgba(0, 0, 0, 0.4);
+    -webkit-mask-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0), black 20%, black 80%, rgba(0, 0, 0, 0) 100%);
+    -moz-mask-image: -moz-linear-gradient(left, rgba(0, 0, 0, 0), black 20%, black 80%, rgba(0, 0, 0, 0) 100%);
+    height: 5px;
+    width: 100%;
+    position: relative;
+    content: '';
+    top: -2px;
+    left: 0;
+    display: block;
+    border-top: 1px solid rgba(0, 0, 0, 0.15);
+}
+
+ul.widget-body li {
+    height: 20px;
+    overflow: hidden;
+    margin: 10px 10px;
+    font-size: 14px;
+    color: #444;
+    line-height: 1.5;
+}
+
+ul.widget-body li a {
+    color: #DD390D;
+}
+
+ul.address li.first {
+    margin-top: 10px;
+}
+
+ul.address li {
+    margin: 0px 10px;
+}
+
+.widget img.map {
+    position: absolute;
+    right: 22px;
+    top: 80px;
+    border:1px solid #CCCCCC !important; 
+    padding:5px;
+    margin-bottom: 10px;
+}
+
+#placement-full-list h3 {
+    font-weight: normal;
+    color: #DD390D;
+    font-size: 20px;
+    line-height: 1.3;
+    margin: 0px;
+    font-family: 'Proxima Nova', 'proxima-nova', 'Helvetica Neue', Helvetica, sans-serif;
+    text-rendering: optimizelegibility;
+}
+
+#placement-full-list ul {
+    width: 240px;
+}
+
+#placement-full-list .left {
+    float: left;
+}
+
+#placement-full-list .right {
+    float: right;
+}
+
+.clear {
+    clear: both;
 }
